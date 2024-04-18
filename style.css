@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container-lg {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 30px auto;
+    padding: 1px;
+    border-radius: 2%;
+
+}
+
+
+#fila {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    background-color: #ffffff; 
+    border-radius: 2%;
+    box-shadow: 11px 13px 2px rgba(0, 0, 0, 0.7);
+    border-width: 3px;
+    border-color: #333;
+    border-radius: 20px;
+}
+
+#imagen .img-fluid {
+    margin-top: 20px;
+    height: 190px;
+    width: 180px;
+    text-align: center;
+}
+
+#imagen img {    
+    display:flex;
+    margin: 0 acentrouto;
+}
+
+#centro {
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#centro h3{
+    font-size: 20px;
+}
+
+
+#cajita p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+#cajita {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    height: 30px;
+    width: 250px;
+    border-bottom: #181010;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+#fila {
+    background-color: #fbfefe;
+    text-align: center;
+}
+
+#circulo{
+    text-align: center;
+    margin-top: 0px;
+    height: 30px;
+    width: 40px;
+    padding: 4px;
+    color: #fff;
+    border-radius: 500%;
+}
+.cir{
+    background-color: #181010;
+    border-radius: 2%;
+}
+/*--------------final del encabezado-------------*/
+
+
+
+.container_dp {
+    height: 240px;
+
+}
+.datosPersonales {
+    display: flex;
+    /* Utilizamos Flexbox para colocar las cajas una al lado de la otra */
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.col-md-5 input[type="radio"],
+.col-md-5 input[type="text"],
+.col-md-2 input[type="checkbox"],
+.col-md-3 input[type="text"] {
+    margin: 5px;
+}
+
+.col-md-5 label,
+.col-md-2 label,
+.col-md-3 label {
+    margin-right: 5px;
+
+}
+
+.col-md-3 form {
+    margin: 5px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.text_datos {
+    width: 300px;
+    height: 30px;
+    margin-left: 2em;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+}
+.numero_datos{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #131212;
+    color: white;
+    border-radius: 50%;
+
+}
+.col-md-12 p,
+.col-md-12 label,
+.col-md-12 input {
+    margin-bottom: 10px;   
+    margin-right: 20px;
+}
+
+.firma{
+    text-align: center;
+}
+
+
